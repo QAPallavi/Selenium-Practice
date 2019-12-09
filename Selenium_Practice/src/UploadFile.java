@@ -33,6 +33,8 @@ public class UploadFile {
 		//Click on Submit button
 		driver.findElement(By.id("submitbutton")).click();
 		
+		Thread.sleep(3000);
+		
 		driver.quit();
 	}
 }
